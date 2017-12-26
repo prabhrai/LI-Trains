@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2999C9FA-D8E8-49D0-800D-1D8023BFF8EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrainScheduleApplication</RootNamespace>
+    <AssemblyName>TrainScheduleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TrainSchedule">
+      <HintPath>..\..\TrainSchedule\TrainSchedule\bin\Debug\TrainSchedule.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="TrainCollection.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="train.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="albertson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="amagansett.jpg" />
+    <Resource Include="amityville.jpg" />
+    <Resource Include="atlanticterminal.jpg" />
+    <Resource Include="auburndale.jpg" />
+    <Resource Include="babylon.jpg" />
+    <Resource Include="baldwin.jpg" />
+    <Resource Include="bayshore.jpg" />
+    <Resource Include="bayside.jpg" />
+    <Resource Include="bellerose.jpg" />
+    <Resource Include="bellmore.jpg" />
+    <Resource Include="bellport.jpg" />
+    <Resource Include="belmont.jpg" />
+    <Resource Include="bethpage.jpg" />
+    <Resource Include="brentwood.jpg" />
+    <Resource Include="bridgehampton.jpg" />
+    <Resource Include="broadway.jpg" />
+    <Resource Include="carleplace.jpg" />
+    <Resource Include="cedarhurst.jpg" />
+    <Resource Include="centralislip.jpg" />
+    <Resource Include="centreavenue.jpg" />
+    <Resource Include="coldspringharbor.jpg" />
+    <Resource Include="copiague.jpg" />
+    <Resource Include="countrylifepress.jpg" />
+    <Resource Include="deerpark.jpg" />
+    <Resource Include="douglaston.jpg" />
+    <Resource Include="easthampton.jpg" />
+    <Resource Include="eastnewyork.jpg" />
+    <Resource Include="eastrockaway.jpg" />
+    <Resource Include="eastwilliston.jpg" />
+    <Resource Include="farmingdale.jpg" />
+    <Resource Include="farrockaway.jpg" />
+    <Resource Include="floralpark.jpg" />
+    <Resource Include="flushingmainstreet.jpg" />
+    <Resource Include="foresthills.jpg" />
+    <Resource Include="freeport.jpg" />
+    <Resource Include="gardencity.jpg" />
+    <Resource Include="gibson.jpg" />
+    <Resource Include="glencove.jpg" />
+    <Resource Include="glenhead.jpg" />
+    <Resource Include="glenstreet.jpg" />
+    <Resource Include="greatneck.jpg" />
+    <Resource Include="greatriver.jpg" />
+    <Resource Include="greenlawn.jpg" />
+    <Resource Include="greenport.jpg" />
+    <Resource Include="greenvale.jpg" />
+    <Resource Include="hamptonbays.jpg" />
+    <Resource Include="hempstead.jpg" />
+    <Resource Include="hempsteadgardens.jpg" />
+    <Resource Include="hewlett.jpg" />
+    <Resource Include="hicksville.jpg" />
+    <Resource Include="hollis.jpg" />
+    <Resource Include="hunterspointavenue.jpg" />
+    <Resource Include="huntington.jpg" />
+    <Resource Include="inwood.jpg" />
+    <Resource Include="islandpark.jpg" />
+    <Resource Include="islip.jpg" />
+    <Resource Include="jamaica.jpg" />
+    <Resource Include="kewgardens.jpg" />
+    <Resource Include="kingspark.jpg" />
+    <Resource Include="lakeview.jpg" />
+    <Resource Include="laurelton.jpg" />
+    <Resource Include="lawrence.jpg" />
+    <Resource Include="lindenhurst.jpg" />
+    <Resource Include="littleneck.jpg" />
+    <Resource Include="locustmanor.jpg" />
+    <Resource Include="locustvalley.jpg" />
+    <Resource Include="longbeach.jpg" />
+    <Resource Include="longislandcity.jpg" />
+    <Resource Include="lynbrook.jpg" />
+    <Resource Include="malverne.jpg" />
+    <Resource Include="manhasset.jpg" />
+    <Resource Include="massapequa.jpg" />
+    <Resource Include="massapequapark.jpg" />
+    <Resource Include="masticshirley.jpg" />
+    <Resource Include="mattituck.jpg" />
+    <Resource Include="meadowlands.jpg" />
+    <Resource Include="medford.jpg" />
+    <Resource Include="merillonavenue.jpg" />
+    <Resource Include="merrick.jpg" />
+    <Resource Include="mets-willetspoint.jpg" />
+    <Resource Include="mineola.jpg" />
+    <Resource Include="montauk.jpg" />
+    <Resource Include="murrayhill.jpg" />
+    <Resource Include="nassauboulevard.jpg" />
+    <Resource Include="newhydepark.jpg" />
+    <Resource Include="northport.jpg" />
+    <Resource Include="nostrandavenue.jpg" />
+    <Resource Include="oakdale.jpg" />
+    <Resource Include="oceanside.jpg" />
+    <Resource Include="oysterbay.jpg" />
+    <Resource Include="patchogue.jpg" />
+    <Resource Include="pennstation.jpg" />
+    <Resource Include="pinelawn.jpg" />
+    <Resource Include="plandome.jpg" />
+    <Resource Include="portjefferson.jpg" />
+    <Resource Include="portwashington.jpg" />
+    <Resource Include="queensvillage.jpg" />
+    <Resource Include="riverhead.jpg" />
+    <Resource Include="rockvillecentre.jpg" />
+    <Resource Include="ronkonkoma.jpg" />
+    <Resource Include="rosedale.jpg" />
+    <Resource Include="roslyn.jpg" />
+    <Resource Include="sayville.jpg" />
+    <Resource Include="seacliff.jpg" />
+    <Resource Include="seaford.jpg" />
+    <Resource Include="smithtown.jpg" />
+    <Resource Include="southampton.jpg" />
+    <Resource Include="southold.jpg" />
+    <Resource Include="speonk.jpg" />
+    <Resource Include="stalbans.jpg" />
+    <Resource Include="stewartmanor.jpg" />
+    <Resource Include="stjames.jpg" />
+    <Resource Include="stonybrook.jpg" />
+    <Resource Include="syosset.jpg" />
+    <Resource Include="valleystream.jpg" />
+    <Resource Include="wantagh.jpg" />
+    <Resource Include="westbury.jpg" />
+    <Resource Include="westhampton.jpg" />
+    <Resource Include="westhempstead.jpg" />
+    <Resource Include="westwood.jpg" />
+    <Resource Include="woodmere.jpg" />
+    <Resource Include="woodside.jpg" />
+    <Resource Include="wyandanch.jpg" />
+    <Resource Include="yaphank.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\bin\Debug\TrainScheduleApplication.exe.config
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\bin\Debug\TrainScheduleApplication.exe
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\bin\Debug\TrainScheduleApplication.pdb
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\MainWindow.g.cs
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\App.g.cs
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication_MarkupCompile.cache
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication_MarkupCompile.lref
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\MainWindow.baml
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.g.resources
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.Properties.Resources.resources
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.csproj.GenerateResource.Cache
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.exe
+c:\users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.pdb
+C:\Users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\bin\Debug\TrainSchedule.dll
+C:\Users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\bin\Debug\TrainSchedule.pdb
+C:\Users\jkps\documents\visual studio 2015\Projects\TrainScheduleApplication\TrainScheduleApplication\obj\Debug\TrainScheduleApplication.csprojResolveAssemblyReference.cache
